@@ -1,0 +1,1 @@
+## Solutions to the codeforces questions which I have solved, repo maintained over the duration of my time at college.
