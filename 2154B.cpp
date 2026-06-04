@@ -25,11 +25,9 @@ int main() {
         }
 
         ll ans = 0;
-
-        // Check valleys (even positions)
         for(int i = 0; i < n; i += 2) {
 
-            ll mini = LLONG_MAX;
+            ll mini = 1e9;
 
             if(i - 1 >= 0)
                 mini = min(mini, a[i-1]);
