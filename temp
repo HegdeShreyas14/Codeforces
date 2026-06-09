@@ -1,78 +1,21 @@
-#include <bits/stdc++.h>
+#include <bits//stdc++.h>
+
 using namespace std;
-
-static inline void fastIO() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-}
-
-using ll  = long long;
-using ull = unsigned long long;
-using ld  = long double;
-using pii = pair<int,int>;
-using pll = pair<ll,ll>;
-using vi  = vector<int>;
-using vll = vector<ll>;
-
-/*  MACROS  */
-#define pb          push_back
-#define eb          emplace_back
-#define ff          first
-#define ss          second
-#define all(x)      (x).begin(), (x).end()
-#define rall(x)     (x).rbegin(), (x).rend()
-#define sz(x)       (int)((x).size())
-
-#define rep(i,a,b)  for (int i = (a); i < (b); ++i)
-#define rrep(i,a,b) for (int i = (a); i >= (b); --i)
-
-constexpr ll INFLL = (ll)4e18;
-constexpr int INF  = (int)1e9;
-constexpr int MOD  = 1000000007;
-
-/*  FAST MATH  */
-inline ll mod_add(ll a, ll b, ll m = MOD) {
-    a += b;
-    if (a >= m) a -= m;
-    return a;
-}
-
-inline ll mod_sub(ll a, ll b, ll m = MOD) {
-    a -= b;
-    if (a < 0) a += m;
-    return a;
-}
-
-inline ll mod_mul(ll a, ll b, ll m = MOD) {
-    return (ll)((__int128)a * b % m);
-}
-
-ll mod_pow(ll a, ll e, ll m = MOD) {
-    ll r = 1;
-    while (e) {
-        if (e & 1) r = mod_mul(r, a, m);
-        a = mod_mul(a, a, m);
-        e >>= 1;
-    }
-    return r;
-}
-
-
-
 
 void solve() {
     int n;
     cin >> n;
-    // function body
+    if(n < 10) cout << n << " 0" << endl;
+    else if (n % 12 == 0) cout << "0 " << n << endl;
     
+
 }
-
 int main() {
-    fastIO();
-
-    int T = 1;
-    cin >> T;
-    while (T--) {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+    cin >> t;
+    while (t--) {
         solve();
     }
     return 0;
