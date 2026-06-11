@@ -7,7 +7,7 @@ This repository serves as a centralized log of my accepted solutions to problems
 ## Current Profile & Stats
 * **Institution:** Manipal Institute of Technology (MIT, Manipal)
 * **Primary Language:** C++20 / C++23 (GCC Compiler)
-* **Codeforces Handle:** [HegdeShreyas14](https://codeforces.com/profile/HegdeShreyas14)
+* **Codeforces Handle:** [Shreyas_14](https://codeforces.com/profile/Shreyas_14)
 
 ---
 
