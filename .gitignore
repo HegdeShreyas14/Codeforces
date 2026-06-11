@@ -1,8 +1,9 @@
-# Ignore compiled executables
+# Ignore compiled binaries
 output
 a.out
 *.exe
 *.o
 
-# Ignore local editor configurations
+# Ignore local editor workspaces
 .vscode/
+.DS_Store
