@@ -1,0 +1,8 @@
+# Ignore compiled executables
+output
+a.out
+*.exe
+*.o
+
+# Ignore local editor configurations
+.vscode/

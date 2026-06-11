@@ -1,1 +1,21 @@
-## Solutions to the codeforces questions which I have solved, repo maintained over the duration of my time at college.
+
+
+This repository serves as a centralized log of my accepted solutions to problems from **Codeforces** and the **CSES Problem Set**. I maintain this codebase to track my algorithmic progress, optimize my templates, and refine my speed throughout my time at college.
+
+---
+
+## Current Profile & Stats
+* **Institution:** Manipal Institute of Technology (MIT, Manipal)
+* **Primary Language:** C++20 / C++23 (GCC Compiler)
+* **Codeforces Handle:** [HegdeShreyas14](https://codeforces.com/profile/HegdeShreyas14)
+
+---
+
+##  Repository Organization
+
+* `/Codeforces` — Solutions to Division contests (Div. 2 / Div. 3) and general problemset practice named by Problem ID (e.g., `1744C.cpp`).
+* `/CSES` — Solutions organized sequentially following the CSES curriculum roadmap.
+  * `Sorting_and_Searching/` — Focus area covering two-pointers, `std::multiset` optimizations, and boundary scheduling.
+* `/Templates` — Optimized, reusable baseline templates including Fast I/O mechanics, custom safe hash structures, and modular exponentiation.
+
+---
