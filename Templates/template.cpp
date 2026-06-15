@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// 1. TYPE ALIASES & CONSTANTS
 
 using ll = long long;
 using vi = vector<int>;
@@ -11,8 +10,6 @@ using pii = pair<int, int>;
 const int INF = 1e9;
 const ll LINF = 1e18;
 const ll MOD = 1e9 + 7; // Change to 998244353 if required by problem
-
-// 2. MATH & STRING UTILITIES
 
 // Primality Test: O(sqrt(N)) using 6k +/- 1 optimization
 bool isPrime(ll n) {
@@ -65,8 +62,6 @@ bool isNumPalindrome(ll n) {
 }
 
 
-// 3. GRAPH TRAVERSAL STRUCTURES
-
 const int MAX_NODES = 2e5 + 5; // Standard constraints upper limit
 vector<int> adj[MAX_NODES];
 bool visited[MAX_NODES];
@@ -108,26 +103,17 @@ vector<int> bfs(int start, int total_nodes) {
 }
 
 
-// 4. CORE PROBLEM SOLVING BLOCK
-
 void solve() {
-    // Clear global containers for multi-testcase problems to prevent data leakage
-    // Example for graphs:
-    // int nodes, edges;
-    // cin >> nodes >> edges;
-    // for(int i = 1; i <= nodes; i++) { adj[i].clear(); visited[i] = false; }
-
-    // Write your solution logic here
 
 }
 
 int main() {
-    // Optimize standard input/output streams for speed
+
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
     int t = 1;
-    cin >> t; // Comment this line out if the problem has only a single testcase
+    cin >> t;
     while (t--) {
         solve();
     }
