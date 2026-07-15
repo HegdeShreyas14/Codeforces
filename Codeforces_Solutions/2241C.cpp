@@ -1,22 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
-using ll = long long;
-
-void solve(){
-    int x; cin>> x;
-    int size = 0;
-    while(x != 0){
-        x /= 10; size++;
-    }
-    cout<<"1";
-    for(int i = 1; i < size; i++) cout<<"0";
-    cout<<"1\n";
-}
-
+ using ll = long long;
 int main(){
-    int tt ; cin>>tt;
+ 
+    int tt;
+    cin >> tt;
+ 
     while(tt--){
-        solve();
-    }
-
+        int n;
+        string s;
+        cin >> n >> s; 
+        int count = 0;
+        for(int i = 0; i < n - 1; i++) if(s[i] != s[i + 1]) count++; 
+        cout << (count == 1 ? 2 : 1) << '\n';
+    } 
+    return 0;
 }
