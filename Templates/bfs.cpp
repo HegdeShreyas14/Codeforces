@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-using ll = long long;
+using ll = long long; 
 
 vector<vector<int>> adj;
 vector<bool> visited;
@@ -36,7 +36,8 @@ int main(){
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
-
-    bfs(0);
-    
+    for(int i = 0 ; i < n ; i ++){
+        if(!visited[i]) bfs(i);
+    }
+        
 }
