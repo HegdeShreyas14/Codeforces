@@ -62,4 +62,26 @@ public:
         return stk.top();
     }
 
+class Solution {
+public:
+    string prefixToPostfix(const string& s) {
+        stack<string> stk;
+        int n = s.size();
+
+        for(int i = n - 1;i >= 0;i --){
+            char c = s[i];
+
+            if(isalnum(c)){
+                stk.push(string(1,c));
+            }
+            else{
+                string op1 = stk.top();stk.pop();
+                string op2 = stk.top();stk.pop();
+
+                stk.push( op1 + op2 + c );
+            }
+        }
+        return stk.top();
+    }
+
 };
