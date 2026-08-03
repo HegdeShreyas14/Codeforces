@@ -19,9 +19,10 @@ void solve(){
                 }
             }
         }
+    }
         ll ops = lena + lenb - 2 * comlong;
         cout<<ops<<"\n";
-    }
+
 }
 int main(){
     int tt ; cin>>tt;
