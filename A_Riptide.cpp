@@ -105,6 +105,14 @@ vector<int> bfs(int start, int total_nodes) {
 
 void solve() {
    
+        int a, b, c;
+        cin >> a >> b >> c;
+
+        int mini  = min({a, b, c});
+        int maxi = max({a, b, c});
+        int mid = a + b + c - mini - maxi;
+
+        cout << min(mid - mini, maxi - mid) << "\n";
 }
 
 int main() {
